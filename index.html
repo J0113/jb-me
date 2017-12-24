@@ -1,1 +1,143 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>JBME</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/my-app.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+  </head>
+  <body id="changethistheme" class="layout-light">
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Views, and they are tabs-->
+    <!-- We need to set "toolbar-through" class on it to keep space for our tab bar-->
+    <div class="views tabs toolbar-through">
+      <!-- Your first view, it is also a .tab and should have "active" class to make it visible by default-->
+      <div id="view-1" class="view view-main tab active">
+         <div class="navbar layout-light">
+          <div class="navbar-inner">
+            <div class="center sliding" style="font-size: 100%; text-align: center; margin-top: 2px; display: block; background: linear-gradient(to right, #43cea2, #185a9d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+						<b>Home</b>
+					</div>
+          </div>
+        </div>
+        <!-- Pages-->
+        <div class="pages navbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index-1" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content">
+              <div class="list-block media-list" style="width:100%;padding-bottom:0px;margin:0px;">
+                                <ul>
+                                    <li style="background:url('img/bg.png')!important;background-position:center !important;background-size:cover !important;background-repeat:no-repeat !important;border:0 !important;" class="">
+                                        <div class="content"></div>
+                                        <br>
+                                        <center>
+                                        <h3>JBME</h3>
+                                        </center>
+                                        <br>
+                                    </li>
+                                </ul>
+                            </div>
+                
+              <div class="list-block inset">
+                <ul>
+                  <li><a href="jailbreaks.html" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner"> 
+                          <div class="item-title">Jailbreaks</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="cydia.html" class="item-link">
+                      <div class="item-content"> 
+                        <div class="item-inner">
+                          <div class="item-title">Cydia Apps</div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="#" class="item-link">
+                      <div class="item-content"> 
+                        <div class="item-inner">
+                          <div class="item-title">Tweaked Apps (Soon)</div>
+                        </div>
+                      </div></a></li>     
+                 <li><a href="#" class="item-link">
+                      <div class="item-content"> 
+                        <div class="item-inner">
+                          <div class="item-title">Paid Apps (Soon)</div>
+                        </div>
+                      </div></a></li>
+                </ul>
+              </div>
+              
+              <div class="list-block inset">
+                <ul>
+                  <li><a href="about.html" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner"> 
+                          <div class="item-title">About</div>
+                        </div>
+                      </div></a></li>
+                </ul>
+              </div>
+                
+              <div class="list-block inset">
+                <ul>
+                  <li><a href="htr.html" class="item-link">
+                      <div class="item-content">
+                        <div class="item-inner"> 
+                          <div class="item-title">How to run?</div>
+                        </div>
+                      </div></a></li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <style type="text/css">
+      div[class*="col-auto"] {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  text-align: center;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+.row {
+  margin-bottom: 15px;
+}          
+h1{
+  color: white;
+  font-size: 20px;
+}
+h2{
+  color: white;
+  font-size: 15px;
+}
+h3{
+  color: white;
+  font-size: 80px;
+}
+p.plus{
+  color: black;
+  font-size: 20px;
+}
+    </style>         
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+    <script type="text/javascript" src="js/inobounce.js"></script>
+    <script type="text/javascript" src="js/themeplugin.js"></script>
+  </body>
+</html>
